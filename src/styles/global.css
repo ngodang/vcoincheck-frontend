@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { 
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+    @apply min-h-screen;
+  }
+
+  ::selection {
+    @apply text-white-100;
+  }
+}
+
+
+.btn-sign{
+  align-items: center;
+  padding: 5;
+}
+#register-btn{
+  width: 50%;
+}
+ #signup-btn{
+  width: 50%;
+  
+ }
+
+ .Forgot{
+   text-align: center;
+   padding: 5px;
+ }
+ .Namepage{
+   margin-top: 5%;
+   text-align: center;
+   font-weight: bold;
+   font-size: 150%;
+ }
